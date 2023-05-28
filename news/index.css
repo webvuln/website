@@ -1,0 +1,48 @@
+
+  body {
+      background-color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    color:ghostwhite; 
+    position: absolute;
+    top: 5%;
+    left: 50%;
+  }
+
+  p {
+    font-size: 150%;
+    color: ghostwhite;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+  #p2 {
+    color: ghostwhite;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+  }
+  #p3 {
+    color: ghostwhite;
+    position: absolute;
+    top: 14%;
+    left: 20%
+  }
+  #p4 {
+    color: ghostwhite;
+    position: absolute;
+    top: 16%;
+    left: 20%
+  }
+  #vid {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+  #fond {
+    color: ghostwhite;
+    position: absolute;
+    top: 100%;
+    left: 20%
+  }
