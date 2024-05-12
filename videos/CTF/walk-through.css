@@ -7,3 +7,15 @@ iframe {
     display: block;
     margin: 0 auto;
  }
+
+.social {
+    color: rgb(139, 2, 2);
+    display: block;
+    text-align: center;
+  }
+  
+.video {
+    display: inline-block;
+    margin:  auto; 
+    margin-bottom: 5rem;
+  }

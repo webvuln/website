@@ -4,15 +4,27 @@ body {
 }
 
 iframe {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.social {
+  color: rgb(139, 2, 2);
+  display: block;
+  text-align: center;
+}
+
+.video {
+  display: inline-block;
+  margin:  auto; 
+  margin-bottom: 5rem;
 }
