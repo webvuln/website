@@ -80,12 +80,63 @@ h1 {
 
 .img {
   display: block;
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
+  max-width: 30%;
 }
 
 .social {
-  display: inline-block;
-  margin:  auto; 
+  display: block;
   text-align: center;
+  align-items: center;
+}
+
+
+
+.services .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.title p{
+  font-size: 1em;
+  width: 80%;
+}
+
+.services .content .card{
+  background: #330505;
+  width: 360px;
+  margin: 10px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+}
+
+.services .content .card .service-icon{
+  color: #ffffff;
+  font-size: 8em;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.services .content .card:hover .service-icon{
+  transform: translateY(-10px);
+}
+
+.services .content .card .info{
+  text-align: center;
+  color: #ffffff;
+}
+
+.services .content .card .info h3{
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
 }
