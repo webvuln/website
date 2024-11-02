@@ -77,10 +77,12 @@ iframe {
     color: rgb(139, 2, 2);
     display: block;
     text-align: center;
+    margin: auto;
+    width: 20%;
   }
   
 .video {
-    display: inline-block;
+    display: list-item;
     margin:  auto; 
     margin-bottom: 5rem;
   }
