@@ -85,3 +85,12 @@ iframe {
     margin:  auto; 
     margin-bottom: 5rem;
   }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+.grid-item {
+    text-align: center;
+  }
