@@ -44,6 +44,17 @@ div.container {
     color: wheat;
   }
 
+div.content-container {
+    margin: auto;
+    width: 60%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #141314;
+    color: wheat;
+  }
+
 div.footer-container {
     position: fixed;
     bottom: 0;

@@ -62,3 +62,27 @@ div.socials {
   background-color: #352235;
   color: white;
 }
+
+.video-container {
+  width: 15%;
+  display: inline-flex;
+  padding: 13px 20px;
+  background-color: #222222;
+  border-style: ridge;
+  border-color: #050505;
+  justify-content: center;
+  align-items: center;
+
+}
+.videos {
+  width: 100%;
+  display: inline-block;
+}
+
+.videos img {
+  width: 100%;
+}
+
+.videos p {
+  text-align: center;
+}
